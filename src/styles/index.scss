@@ -11,3 +11,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 70%;
+    margin: auto;
+}
+ .contenedor-card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+ }
+ .card-styles{
+     margin-right: 20px;
+ }

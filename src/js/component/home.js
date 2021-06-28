@@ -11,13 +11,15 @@ export function Home() {
 	return (
 		<div>
 			<Nav />
-			<Header />
-            <div className="row">
-			<Card />
-			<Card />
-			<Card />
-			<Card />
-            </div>
+			<div className="contenedor">
+				<Header />
+				<div className="contenedor-card">
+					<Card name="MENS" title="Nueva Collection SUMMER 2021" />
+					<Card name="WOMANS" title="Nueva Collection SUMMER 2021" />
+					<Card name="KIDS" title="Nueva Collection SUMMER 2021" />
+					<Card name="MENS" title="Nueva Collection SUMMER 2021" />
+				</div>
+			</div>
 		</div>
 	);
 }
